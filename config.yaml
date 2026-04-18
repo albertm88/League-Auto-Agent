@@ -1,0 +1,96 @@
+# League Auto Agent Configuration
+
+# Screen capture settings
+capture:
+  monitor_index: 1          # 1 = primary monitor
+  fps: 5                    # Frames captured per second for the agent loop
+  resolution:
+    width: 1920
+    height: 1080
+
+# Vision processing settings
+vision:
+  minimap:
+    # Minimap region as fraction of screen (bottom-right corner in LoL)
+    x_frac: 0.79
+    y_frac: 0.79
+    w_frac: 0.20
+    h_frac: 0.20
+  health_bar:
+    # Player health bar region (top-center HUD)
+    x_frac: 0.37
+    y_frac: 0.89
+    w_frac: 0.10
+    h_frac: 0.02
+  mana_bar:
+    x_frac: 0.37
+    y_frac: 0.91
+    w_frac: 0.10
+    h_frac: 0.02
+  # HSV thresholds used for detecting health / mana bars
+  health_color_lower: [40, 100, 100]
+  health_color_upper: [80, 255, 255]
+  mana_color_lower: [100, 100, 100]
+  mana_color_upper: [140, 255, 255]
+  # Resize captured frame to this size before feeding into PPO network
+  obs_width: 160
+  obs_height: 90
+
+# LLM settings
+llm:
+  model_path: "models/llm_model.gguf"   # path to your .gguf model file
+  n_ctx: 2048                            # context window size
+  n_threads: 4
+  temperature: 0.7
+  max_tokens: 256
+  # System prompt prefix sent to the model
+  system_prompt: >
+    You are a professional League of Legends assistant. Analyze the
+    current game state and recommend the best strategic action for the
+    player. Keep your answer brief – one sentence, starting with one of
+    the following action tags:
+    [FARM], [ENGAGE], [RETREAT], [ROAM], [RECALL], [BUY_ITEMS],
+    [PUSH_LANE], [CONTEST_OBJECTIVE].
+
+# PPO hyper-parameters
+ppo:
+  obs_shape: [3, 90, 160]    # C x H x W of the observation frame
+  llm_feature_dim: 8         # dimension of the LLM one-hot encoded guidance vector
+  num_actions: 20            # total discrete actions (see ActionExecutor)
+  hidden_dim: 256
+  lr: 3.0e-4
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_epsilon: 0.2
+  value_coef: 0.5
+  entropy_coef: 0.01
+  max_grad_norm: 0.5
+  update_epochs: 4
+  batch_size: 64
+  buffer_capacity: 2048
+  checkpoint_dir: "checkpoints"
+  checkpoint_interval: 100   # save every N PPO updates
+
+# Action executor settings
+actions:
+  # Ability key bindings
+  ability_keys: ["q", "w", "e", "r"]
+  # Item slot key bindings (slots 1-7)
+  item_keys: ["1", "2", "3", "4", "5", "6", "7"]
+  # Recall key
+  recall_key: "b"
+  # Camera lock key
+  camera_lock_key: "y"
+  # Movement uses right-click; attack-move uses "a" + right-click
+  move_grid_cols: 4
+  move_grid_rows: 4
+  # Pause between actions (seconds) to avoid OS event flooding
+  action_delay: 0.05
+
+# Logging
+logging:
+  level: "INFO"               # DEBUG | INFO | WARNING | ERROR
+  log_dir: "logs"
+  log_file: "agent.log"
+  max_bytes: 10485760         # 10 MB
+  backup_count: 5

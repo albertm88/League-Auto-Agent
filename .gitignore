@@ -175,8 +175,18 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Abstra
-# Abstra is an AI-powered process automation framework.
+# Model files (large binary – download separately)
+models/*.gguf
+models/*.bin
+models/*.safetensors
+
+# PPO checkpoints
+checkpoints/*.pt
+
+# Log files
+logs/*.log
+logs/*.log.*
+
 # Ignore directories containing user credentials, local state, and settings.
 # Learn more at https://abstra.io/docs
 .abstra/
