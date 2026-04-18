@@ -1,0 +1,168 @@
+06:08:33 [INFO] 开始截图...
+06:08:33 [INFO] 截图尺寸: 1920×1080
+06:08:33 [DEBUG] 保存 ROI [hp] → ./temp\060833_hp.png
+06:08:33 [DEBUG] 保存 ROI [mana] → ./temp\060833_mana.png
+06:08:33 [DEBUG] 保存 ROI [skill_q] → ./temp\060833_skill_q.png
+06:08:33 [DEBUG] 保存 ROI [skill_w] → ./temp\060833_skill_w.png
+06:08:33 [DEBUG] 保存 ROI [skill_e] → ./temp\060833_skill_e.png
+06:08:33 [DEBUG] 保存 ROI [skill_r] → ./temp\060833_skill_r.png
+06:08:33 [DEBUG] 保存 ROI [spell_d] → ./temp\060833_spell_d.png
+06:08:33 [DEBUG] 保存 ROI [spell_f] → ./temp\060833_spell_f.png
+06:08:33 [DEBUG] 保存 ROI [gold] → ./temp\060833_gold.png
+06:08:33 [DEBUG] 保存 ROI [minimap] → ./temp\060833_minimap.png
+06:08:33 [DEBUG] 保存 ROI [enemy] → ./temp\060833_enemy.png
+06:08:33 [INFO] 原始截图 → ./temp\060833_full.png
+06:08:33 [INFO] 标注截图 → ./temp\060833_annotated.png
+06:08:33 [DEBUG] ['D:\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_hsyak6w2_input.PNG', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_hsyak6w2', '--psm', '7', '--oem', '3', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+06:08:33 [INFO] 当前读数（值域 0~1）：
+06:08:33 [INFO] hp         1.000  [████████████████████]
+06:08:33 [INFO] mana       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:08:33 [INFO] enemy_hp   1.000  [████████████████████]
+06:08:33 [INFO] dist       1.000  [████████████████████]
+06:08:33 [INFO] q          0.693  [█████████████░░░░░░░]
+06:08:33 [INFO] w          0.600  [███████████░░░░░░░░░]
+06:08:33 [INFO] e          0.531  [██████████░░░░░░░░░░]
+06:08:33 [INFO] r          0.572  [███████████░░░░░░░░░]
+06:08:33 [INFO] d          0.876  [█████████████████░░░]
+06:08:33 [INFO] f          1.000  [████████████████████]
+06:08:33 [INFO] gold       0.007  [░░░░░░░░░░░░░░░░░░░░]
+06:19:26 [INFO] 开始截图...
+06:19:26 [INFO] 截图尺寸: 1920×1080
+06:19:26 [DEBUG] 保存 ROI [hp] → ./temp\061926_hp.png
+06:19:26 [DEBUG] 保存 ROI [mana] → ./temp\061926_mana.png
+06:19:26 [DEBUG] 保存 ROI [skill_q] → ./temp\061926_skill_q.png
+06:19:26 [DEBUG] 保存 ROI [skill_w] → ./temp\061926_skill_w.png
+06:19:26 [DEBUG] 保存 ROI [skill_e] → ./temp\061926_skill_e.png
+06:19:26 [DEBUG] 保存 ROI [skill_r] → ./temp\061926_skill_r.png
+06:19:26 [DEBUG] 保存 ROI [spell_d] → ./temp\061926_spell_d.png
+06:19:26 [DEBUG] 保存 ROI [spell_f] → ./temp\061926_spell_f.png
+06:19:26 [DEBUG] 保存 ROI [gold] → ./temp\061926_gold.png
+06:19:26 [DEBUG] 保存 ROI [minimap] → ./temp\061926_minimap.png
+06:19:26 [DEBUG] 保存 ROI [enemy] → ./temp\061926_enemy.png
+06:19:26 [INFO] 原始截图 → ./temp\061926_full.png
+06:19:26 [INFO] 标注截图 → ./temp\061926_annotated.png
+06:19:26 [DEBUG] ['D:\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_oysuclh5_input.PNG', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_oysuclh5', '--psm', '7', '--oem', '3', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+06:19:26 [INFO] 当前读数（值域 0~1）：
+06:19:26 [INFO] hp         0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:19:26 [INFO] mana       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:19:26 [INFO] enemy_hp   1.000  [████████████████████]
+06:19:26 [INFO] dist       1.000  [████████████████████]
+06:19:26 [INFO] q          0.754  [███████████████░░░░░]
+06:19:26 [INFO] w          0.706  [██████████████░░░░░░]
+06:19:26 [INFO] e          0.651  [█████████████░░░░░░░]
+06:19:26 [INFO] r          0.403  [████████░░░░░░░░░░░░]
+06:19:26 [INFO] d          0.876  [█████████████████░░░]
+06:19:26 [INFO] f          1.000  [████████████████████]
+06:19:26 [INFO] gold       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:26:36 [INFO] 开始截图...
+06:26:36 [INFO] 截图尺寸: 1920×1080
+06:26:36 [DEBUG] 保存 ROI [hp] → ./temp\062636_hp.png
+06:26:36 [DEBUG] 保存 ROI [mana] → ./temp\062636_mana.png
+06:26:36 [DEBUG] 保存 ROI [skill_q] → ./temp\062636_skill_q.png
+06:26:36 [DEBUG] 保存 ROI [skill_w] → ./temp\062636_skill_w.png
+06:26:36 [DEBUG] 保存 ROI [skill_e] → ./temp\062636_skill_e.png
+06:26:36 [DEBUG] 保存 ROI [skill_r] → ./temp\062636_skill_r.png
+06:26:36 [DEBUG] 保存 ROI [spell_d] → ./temp\062636_spell_d.png
+06:26:36 [DEBUG] 保存 ROI [spell_f] → ./temp\062636_spell_f.png
+06:26:36 [DEBUG] 保存 ROI [gold] → ./temp\062636_gold.png
+06:26:36 [DEBUG] 保存 ROI [minimap] → ./temp\062636_minimap.png
+06:26:36 [DEBUG] 保存 ROI [enemy] → ./temp\062636_enemy.png
+06:26:36 [INFO] 原始截图 → ./temp\062636_full.png
+06:26:36 [INFO] 标注截图 → ./temp\062636_annotated.png
+06:26:36 [DEBUG] ['D:\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_wn40bskw_input.PNG', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_wn40bskw', '--psm', '7', '--oem', '3', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+06:26:37 [INFO] 当前读数（值域 0~1）：
+06:26:37 [INFO] hp         1.000  [████████████████████]
+06:26:37 [INFO] mana       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:26:37 [INFO] enemy_hp   1.000  [████████████████████]
+06:26:37 [INFO] dist       0.500  [██████████░░░░░░░░░░]
+06:26:37 [INFO] q          0.757  [███████████████░░░░░]
+06:26:37 [INFO] w          0.555  [███████████░░░░░░░░░]
+06:26:37 [INFO] e          0.558  [███████████░░░░░░░░░]
+06:26:37 [INFO] r          0.593  [███████████░░░░░░░░░]
+06:26:37 [INFO] d          0.503  [██████████░░░░░░░░░░]
+06:26:37 [INFO] f          0.855  [█████████████████░░░]
+06:26:37 [INFO] gold       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:27:00 [INFO] 开始截图...
+06:27:00 [INFO] 截图尺寸: 1920×1080
+06:27:00 [DEBUG] 保存 ROI [hp] → ./temp\062700_hp.png
+06:27:00 [DEBUG] 保存 ROI [mana] → ./temp\062700_mana.png
+06:27:00 [DEBUG] 保存 ROI [skill_q] → ./temp\062700_skill_q.png
+06:27:00 [DEBUG] 保存 ROI [skill_w] → ./temp\062700_skill_w.png
+06:27:00 [DEBUG] 保存 ROI [skill_e] → ./temp\062700_skill_e.png
+06:27:00 [DEBUG] 保存 ROI [skill_r] → ./temp\062700_skill_r.png
+06:27:00 [DEBUG] 保存 ROI [spell_d] → ./temp\062700_spell_d.png
+06:27:00 [DEBUG] 保存 ROI [spell_f] → ./temp\062700_spell_f.png
+06:27:00 [DEBUG] 保存 ROI [gold] → ./temp\062700_gold.png
+06:27:00 [DEBUG] 保存 ROI [minimap] → ./temp\062700_minimap.png
+06:27:00 [DEBUG] 保存 ROI [enemy] → ./temp\062700_enemy.png
+06:27:00 [INFO] 原始截图 → ./temp\062700_full.png
+06:27:00 [INFO] 标注截图 → ./temp\062700_annotated.png
+06:27:00 [DEBUG] ['D:\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_zlq5bl5x_input.PNG', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_zlq5bl5x', '--psm', '7', '--oem', '3', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+06:27:00 [INFO] 当前读数（值域 0~1）：
+06:27:00 [INFO] hp         0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:27:00 [INFO] mana       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:27:00 [INFO] enemy_hp   1.000  [████████████████████]
+06:27:00 [INFO] dist       1.000  [████████████████████]
+06:27:00 [INFO] q          0.757  [███████████████░░░░░]
+06:27:00 [INFO] w          0.555  [███████████░░░░░░░░░]
+06:27:00 [INFO] e          0.558  [███████████░░░░░░░░░]
+06:27:00 [INFO] r          0.585  [███████████░░░░░░░░░]
+06:27:00 [INFO] d          0.503  [██████████░░░░░░░░░░]
+06:27:00 [INFO] f          0.374  [███████░░░░░░░░░░░░░]
+06:27:00 [INFO] gold       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:27:24 [INFO] 开始截图...
+06:27:24 [INFO] 截图尺寸: 1920×1080
+06:27:24 [DEBUG] 保存 ROI [hp] → ./temp\062724_hp.png
+06:27:24 [DEBUG] 保存 ROI [mana] → ./temp\062724_mana.png
+06:27:24 [DEBUG] 保存 ROI [skill_q] → ./temp\062724_skill_q.png
+06:27:24 [DEBUG] 保存 ROI [skill_w] → ./temp\062724_skill_w.png
+06:27:24 [DEBUG] 保存 ROI [skill_e] → ./temp\062724_skill_e.png
+06:27:24 [DEBUG] 保存 ROI [skill_r] → ./temp\062724_skill_r.png
+06:27:24 [DEBUG] 保存 ROI [spell_d] → ./temp\062724_spell_d.png
+06:27:24 [DEBUG] 保存 ROI [spell_f] → ./temp\062724_spell_f.png
+06:27:24 [DEBUG] 保存 ROI [gold] → ./temp\062724_gold.png
+06:27:24 [DEBUG] 保存 ROI [minimap] → ./temp\062724_minimap.png
+06:27:24 [DEBUG] 保存 ROI [enemy] → ./temp\062724_enemy.png
+06:27:24 [INFO] 原始截图 → ./temp\062724_full.png
+06:27:24 [INFO] 标注截图 → ./temp\062724_annotated.png
+06:27:24 [DEBUG] ['D:\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_89rjawga_input.PNG', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_89rjawga', '--psm', '7', '--oem', '3', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+06:27:25 [INFO] 当前读数（值域 0~1）：
+06:27:25 [INFO] hp         1.000  [████████████████████]
+06:27:25 [INFO] mana       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:27:25 [INFO] enemy_hp   1.000  [████████████████████]
+06:27:25 [INFO] dist       1.000  [████████████████████]
+06:27:25 [INFO] q          0.757  [███████████████░░░░░]
+06:27:25 [INFO] w          0.555  [███████████░░░░░░░░░]
+06:27:25 [INFO] e          0.558  [███████████░░░░░░░░░]
+06:27:25 [INFO] r          0.560  [███████████░░░░░░░░░]
+06:27:25 [INFO] d          0.503  [██████████░░░░░░░░░░]
+06:27:25 [INFO] f          0.162  [███░░░░░░░░░░░░░░░░░]
+06:27:25 [INFO] gold       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:30:22 [INFO] 开始截图...
+06:30:22 [INFO] 截图尺寸: 1920×1080
+06:30:22 [DEBUG] 保存 ROI [hp] → ./temp\063022_hp.png
+06:30:22 [DEBUG] 保存 ROI [mana] → ./temp\063022_mana.png
+06:30:22 [DEBUG] 保存 ROI [skill_q] → ./temp\063022_skill_q.png
+06:30:22 [DEBUG] 保存 ROI [skill_w] → ./temp\063022_skill_w.png
+06:30:22 [DEBUG] 保存 ROI [skill_e] → ./temp\063022_skill_e.png
+06:30:22 [DEBUG] 保存 ROI [skill_r] → ./temp\063022_skill_r.png
+06:30:22 [DEBUG] 保存 ROI [spell_d] → ./temp\063022_spell_d.png
+06:30:22 [DEBUG] 保存 ROI [spell_f] → ./temp\063022_spell_f.png
+06:30:22 [DEBUG] 保存 ROI [gold] → ./temp\063022_gold.png
+06:30:22 [DEBUG] 保存 ROI [minimap] → ./temp\063022_minimap.png
+06:30:22 [DEBUG] 保存 ROI [enemy] → ./temp\063022_enemy.png
+06:30:22 [INFO] 原始截图 → ./temp\063022_full.png
+06:30:22 [INFO] 标注截图 → ./temp\063022_annotated.png
+06:30:22 [DEBUG] ['D:\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_q4cmmrkh_input.PNG', 'C:\\Users\\Azusa\\AppData\\Local\\Temp\\tess_q4cmmrkh', '--psm', '7', '--oem', '3', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+06:30:22 [INFO] 当前读数（值域 0~1）：
+06:30:22 [INFO] hp         0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:30:22 [INFO] mana       0.000  [░░░░░░░░░░░░░░░░░░░░]
+06:30:22 [INFO] enemy_hp   1.000  [████████████████████]
+06:30:22 [INFO] dist       1.000  [████████████████████]
+06:30:22 [INFO] q          0.757  [███████████████░░░░░]
+06:30:22 [INFO] w          0.555  [███████████░░░░░░░░░]
+06:30:22 [INFO] e          0.558  [███████████░░░░░░░░░]
+06:30:22 [INFO] r          0.592  [███████████░░░░░░░░░]
+06:30:22 [INFO] d          0.503  [██████████░░░░░░░░░░]
+06:30:22 [INFO] f          0.855  [█████████████████░░░]
+06:30:22 [INFO] gold       0.000  [░░░░░░░░░░░░░░░░░░░░]
