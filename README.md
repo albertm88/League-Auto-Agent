@@ -1,6 +1,6 @@
 # League-Auto-Agent
 An architecture of LLM+PPO module used for League
-[中文](README_CN)
+[中文](README_CN.md)
 ## 📌 Overview
 
 League-Auto-Agent is an experimental framework that combines a Large Language Model (LLM) with Proximal Policy Optimization (PPO) reinforcement learning to create an autonomous agent for playing League of Legends. The system captures real-time game state via OCR and pixel-based UI monitoring, feeding a 13-dimensional state vector into a hybrid decision-making architecture that selects from 8 discrete actions at ~10 Hz.
